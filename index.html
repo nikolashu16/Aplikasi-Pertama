@@ -1,17 +1,114 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
+    <title>Beasiswa Ujian Toefl</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>    
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap/css/bootstrap.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  
+  <body>
+      <div class="header navbar navbar-light bg-light">
+        <p class="teksheader">Beasiswa Ujian TOEFL</p>
+    </div>
+        <div id="About">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="AboutData">
+            <div class="card bg-white">
+              <div class="card-tittle my-5">
+                <div class="media">
+                  <img src="https://png.pngtree.com/png-vector/20190307/ourmid/pngtree-vector-edit-profile-icon-png-image_758006.jpg" alt="" class="fotoprofile">
+                  <div class="media-body">
+                    <div class="container">
+                      <table class="table table-responsive ml-4">
+                        <tr>
+                          <td class="text-muted">Nama Peserta</td>
+                          <td>:</td>
+                          <td>Nikolas Setiawan Sugiarto</td>
+                        </tr>
+                        <tr>
+                          <td class="text-muted">Nomer Peserta</td>
+                          <td>:</td>
+                          <td>201701009</td>
+                        </tr>
+                        <tr>
+                          <td class="text-muted">Telp Peserta</td>
+                          <td>:</td>
+                          <td>+6281325332371</td>
+                        </tr>
+                        <tr>
+                          <td class="text-muted">Email Peserta</td>
+                          <td>:</td>
+                          <td>nikolashu16@outlook.com</td>
+                        </tr>
+                        <tr>
+                          <td class="text-muted">Alamat Peserta</td>
+                          <td>:</td>
+                          <td>Jln. Penatusan No 19 A 02/02 Purwokerto</td>
+                        </tr>
+                        
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <span class="span bg-info text-white">Penentuan Dapat/Tidak Dapat Beasiswa</span>
+        <hr class="bg-info">
+        <div class="card-group">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Nilai Rata-Rata Ujian</h5>
+              <h3><div class="text-center" id="hasilujian" ></div> </h3>
+              
+              <a class="card-text" style="font-size: 16pt; font-weight:500;"> Nilai Ujian Pertama</a>
+              <a class="card-text" style="font-size: 16pt;margin-left: 150px; font-weight:500;"> Nilai Ujian Kedua</a>
+              <a class="card-text" style="font-size: 16pt;margin-left: 70px; font-weight:500;"> Nilai Ujian Praktek</a><br>
+              <a style="margin-left: 60px;" id="ujiantertulis1"></a>
+              <a style="margin-left: 220px;" id="ujiantertulis2"></a>
+              <a style="margin-left: 300px;" id="ujianpraktek"></a>
+            </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Score TOEFL</h5>
+              <h3><div class="text-center" id="toefl1"></div></h3>
+              <br><div class="text-center"> Nilai </div>
+              <div class="text-center" id="toefl"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Beasiswa</h5>
+              <div class="text-center" id="beasiswa"></div>
+              <br><div class="text-center"> Nilai </div>
+              <div class="text-center" id="nilai"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<body>
 
+  <script src='bootsrap/js/jquery.js'></script>
+  <script src='bootsrap/js/bootstrap.js'></script>
+  <script src='bootsrap/js/popper.js'></script>
 </body>
 
 </html>
